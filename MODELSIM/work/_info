@@ -1,0 +1,90 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Modeltech_pe_edu_10.4a/examples
+Elfsr_16_bit
+Z0 w1559337206
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/edoardo/Desktop/LFSR_writeTestableFile
+Z4 8C:/Users/edoardo/Desktop/LFSR_writeTestableFile/LFSR_16_BIT.vhd
+Z5 FC:/Users/edoardo/Desktop/LFSR_writeTestableFile/LFSR_16_BIT.vhd
+l0
+L8
+Vg`W[jM[7lI7HbAb<2LE]b2
+!s100 JaBZ7z<7e5O?h>DhgC6VH3
+Z6 OP;C;10.4a;61
+32
+Z7 !s110 1559338546
+!i10b 1
+Z8 !s108 1559338546.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/edoardo/Desktop/LFSR_writeTestableFile/LFSR_16_BIT.vhd|
+Z10 !s107 C:/Users/edoardo/Desktop/LFSR_writeTestableFile/LFSR_16_BIT.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Abhv
+R1
+R2
+Z13 DEx4 work 11 lfsr_16_bit 0 22 g`W[jM[7lI7HbAb<2LE]b2
+l23
+L18
+Z14 VLTTWHVz:U0j7?2IAM8jc50
+Z15 !s100 zLl?;g:ZA4Gbz<@4eVHkB3
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Elfsr_16_bit_tb
+Z16 w1559338454
+Z17 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+R1
+R2
+R3
+Z18 8C:/Users/edoardo/Desktop/LFSR_writeTestableFile/LFSR_16_BIT_TB.vhd
+Z19 FC:/Users/edoardo/Desktop/LFSR_writeTestableFile/LFSR_16_BIT_TB.vhd
+l0
+L10
+VlALGm[L^IBHKmfF?LjP7?2
+!s100 cAd:O5j;lLJh793]B_EZD3
+R6
+32
+R7
+!i10b 1
+R8
+Z20 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/edoardo/Desktop/LFSR_writeTestableFile/LFSR_16_BIT_TB.vhd|
+Z21 !s107 C:/Users/edoardo/Desktop/LFSR_writeTestableFile/LFSR_16_BIT_TB.vhd|
+!i113 1
+R11
+R12
+Abhv
+R17
+R1
+R2
+DEx4 work 14 lfsr_16_bit_tb 0 22 lALGm[L^IBHKmfF?LjP7?2
+l47
+L18
+VR>mUbLGAP>A]=zR0z]NA30
+!s100 AjhWYY^NcRMUX6hNCm0@72
+R6
+32
+R7
+!i10b 1
+R8
+R20
+R21
+!i113 1
+R11
+R12

@@ -1,0 +1,112 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Sat Jun 22 16:18:28 2019
+| Host         : DESKTOP-BJGGVCP running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file LFSR_16_BIT_control_sets_placed.rpt
+| Design       : LFSR_16_BIT
+| Device       : xc7z010
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    48 |
+| Unused register locations in slices containing registers |   336 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |           48 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |               0 |            0 |
+| No           | No                    | Yes                    |              32 |           32 |
+| No           | Yes                   | No                     |              16 |           16 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               0 |            0 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-----------------------------------+---------------+----------------------------------+------------------+----------------+
+|            Clock Signal           | Enable Signal |         Set/Reset Signal         | Slice Load Count | Bel Load Count |
++-----------------------------------+---------------+----------------------------------+------------------+----------------+
+|  actual_value_reg[12]_LDC_i_1_n_0 |               | actual_value_reg[12]_LDC_i_2_n_0 |                1 |              1 |
+|  actual_value_reg[0]_LDC_i_1_n_0  |               | actual_value_reg[0]_LDC_i_2_n_0  |                1 |              1 |
+|  actual_value_reg[10]_LDC_i_1_n_0 |               | actual_value_reg[10]_LDC_i_2_n_0 |                1 |              1 |
+|  actual_value_reg[11]_LDC_i_1_n_0 |               | actual_value_reg[11]_LDC_i_2_n_0 |                1 |              1 |
+|  actual_value_reg[3]_LDC_i_1_n_0  |               | actual_value_reg[3]_LDC_i_2_n_0  |                1 |              1 |
+|  actual_value_reg[8]_LDC_i_1_n_0  |               | actual_value_reg[8]_LDC_i_2_n_0  |                1 |              1 |
+|  actual_value_reg[7]_LDC_i_1_n_0  |               | actual_value_reg[7]_LDC_i_2_n_0  |                1 |              1 |
+|  actual_value_reg[6]_LDC_i_1_n_0  |               | actual_value_reg[6]_LDC_i_2_n_0  |                1 |              1 |
+|  actual_value_reg[9]_LDC_i_1_n_0  |               | actual_value_reg[9]_LDC_i_2_n_0  |                1 |              1 |
+|  actual_value_reg[13]_LDC_i_1_n_0 |               | actual_value_reg[13]_LDC_i_2_n_0 |                1 |              1 |
+|  actual_value_reg[15]_LDC_i_1_n_0 |               | actual_value_reg[15]_LDC_i_2_n_0 |                1 |              1 |
+|  actual_value_reg[2]_LDC_i_1_n_0  |               | actual_value_reg[2]_LDC_i_2_n_0  |                1 |              1 |
+|  actual_value_reg[1]_LDC_i_1_n_0  |               | actual_value_reg[1]_LDC_i_2_n_0  |                1 |              1 |
+|  actual_value_reg[4]_LDC_i_1_n_0  |               | actual_value_reg[4]_LDC_i_2_n_0  |                1 |              1 |
+|  actual_value_reg[14]_LDC_i_1_n_0 |               | actual_value_reg[14]_LDC_i_2_n_0 |                1 |              1 |
+|  actual_value_reg[5]_LDC_i_1_n_0  |               | actual_value_reg[5]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[12]_LDC_i_1_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[0]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[11]_LDC_i_2_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[10]_LDC_i_2_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[10]_LDC_i_1_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[0]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[11]_LDC_i_1_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[12]_LDC_i_2_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[3]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[8]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[7]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[7]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[6]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[1]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[9]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[9]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[13]_LDC_i_1_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[8]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[13]_LDC_i_2_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[5]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[14]_LDC_i_2_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[15]_LDC_i_1_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[2]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[1]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[4]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[15]_LDC_i_2_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[14]_LDC_i_1_n_0 |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[3]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[2]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[5]_LDC_i_1_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[6]_LDC_i_2_n_0  |                1 |              1 |
+|  clock_IBUF_BUFG                  |               | actual_value_reg[4]_LDC_i_2_n_0  |                1 |              1 |
++-----------------------------------+---------------+----------------------------------+------------------+----------------+
+
+
