@@ -10,4 +10,4 @@ To ensure that the device is working correctly I wrote a simple C implementation
 I performed both coverage and boundary test to guarantee the periodicity of the LFSR. In fact once a period finished the component must repropose the same output for the same input of the previous period, and this is the case.
 
 ## Author
-Edoardo Cittadini - Scuola Superiore Sant'Anna and University of Pisa - Embedded Computing System Master Degree - (https://github.com/Edocit)
+Edoardo Cittadini - Scuola Superiore Sant'Anna and University of Pisa - Embedded Computing System Master Degree <br/> https://github.com/Edocit
